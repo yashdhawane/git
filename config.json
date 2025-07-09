@@ -1,1 +1,1 @@
-'{ "timeout": 60, "retries": 3 }' 
+'{ "timeout": 120, "retries": 3 }' 
