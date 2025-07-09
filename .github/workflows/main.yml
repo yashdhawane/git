@@ -1,0 +1,14 @@
+name: Simple CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print working message
+        run: echo "working CI"
